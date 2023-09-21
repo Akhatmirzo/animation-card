@@ -1,0 +1,233 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.box{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      animation-timing-function:ease;
+}
+
+body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10rem;
+      animation-name: body1;
+      animation-duration: 10s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+}
+
+.card-box:nth-child(1){
+      border: 1px solid black;
+      width: 300px;
+      height: 500px;
+      margin: 3rem;
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+      animation-name: box;
+      animation-delay: 2s;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      background-image: url(https://cdn.pixabay.com/photo/2021/12/11/11/48/nature-6862612__340.jpg);
+      background-size: cover;
+      background-position: center;
+      animation-direction: alternate;
+}
+
+.card-box:nth-child(2){
+      border: 1px solid black;
+      width: 300px;
+      height: 500px;
+      margin: 3rem;
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+      animation-name: box-1;
+      animation-delay: 2s;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+      background-size: cover;
+      background-position: center;
+      background-image: url(https://cdn.pixabay.com/photo/2021/12/11/11/48/nature-6862612__340.jpg);
+      animation-direction: alternate;
+}
+
+.card-box:nth-child(3){
+      border: 1px solid black;
+      width: 300px;
+      height: 500px;
+      margin: 3rem;
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+      animation-name: box-2;
+      animation-delay: 2s;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+      background-size: cover;
+      background-position: center;
+      background-image: url(https://cdn.pixabay.com/photo/2021/12/11/11/48/nature-6862612__340.jpg);
+      animation-direction: alternate;
+}
+
+@keyframes box {
+      0%{
+            background-image: url(https://cdn.pixabay.com/photo/2021/12/11/11/48/nature-6862612__340.jpg);
+      }
+      10%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/04/06/20/30/big-ben-7116305__340.jpg);
+      }
+      20%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/02/22/15/15/girl-7029035__340.jpg);
+      }
+      30%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/01/30/15/01/girl-6981336__340.jpg);
+      }
+      40%{
+            background-image: url(https://media.istockphoto.com/photos/tabiat-steel-bridge-tehran-iran-picture-id974833068?b=1&k=20&m=974833068&s=170667a&w=0&h=zVUb52wv9R37AJHV_GkH7MI8xCx76Apon2AGu9gn9Fs=);
+      }
+      50%{
+            background-image: url(https://media.istockphoto.com/photos/bridge-habits-picture-id1093230824?b=1&k=20&m=1093230824&s=170667a&w=0&h=fTzIqK9ptQtyHp0r0dG-BlM50TSEje1wEr2tbO-HSNc=);
+      }
+      60%{
+            background-image: url(https://media.istockphoto.com/photos/bolu-glgk-tabiat-park-orman-evi-picture-id1371967838?b=1&k=20&m=1371967838&s=170667a&w=0&h=EOsliWCqwNqQyk_kMr_-zLu_wB4ohtQOZH-Nli541hM=);
+      }
+      70%{
+            background-image: url(https://cdn.pixabay.com/photo/2019/03/05/05/45/man-4035612__340.jpg);
+      }
+      80%{
+            background-image: url(https://media.istockphoto.com/photos/hot-air-balloons-flying-over-the-botan-canyon-in-turkey-picture-id1297349747?b=1&k=20&m=1297349747&s=170667a&w=0&h=oH31fJty_4xWl_JQ4OIQWZKP8C6ji9Mz7L4XmEnbqRU=);
+      }
+      90%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/03/26/10/45/frankfurt-7092736__340.jpg);
+      }
+      100%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/03/31/11/28/insect-7102809__340.jpg);
+      }
+}
+
+
+@keyframes box-1 {
+      0%{
+            background-image: url(https://cdn.pixabay.com/photo/2021/12/11/11/48/nature-6862612__340.jpg);
+      }
+      10%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/04/06/20/30/big-ben-7116305__340.jpg);
+      }
+      20%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/02/22/15/15/girl-7029035__340.jpg);
+      }
+      30%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/01/30/15/01/girl-6981336__340.jpg);
+      }
+      40%{
+            background-image: url(https://media.istockphoto.com/photos/tabiat-steel-bridge-tehran-iran-picture-id974833068?b=1&k=20&m=974833068&s=170667a&w=0&h=zVUb52wv9R37AJHV_GkH7MI8xCx76Apon2AGu9gn9Fs=);
+      }
+      50%{
+            background-image: url(https://media.istockphoto.com/photos/bridge-habits-picture-id1093230824?b=1&k=20&m=1093230824&s=170667a&w=0&h=fTzIqK9ptQtyHp0r0dG-BlM50TSEje1wEr2tbO-HSNc=);
+      }
+      60%{
+            background-image: url(https://media.istockphoto.com/photos/bolu-glgk-tabiat-park-orman-evi-picture-id1371967838?b=1&k=20&m=1371967838&s=170667a&w=0&h=EOsliWCqwNqQyk_kMr_-zLu_wB4ohtQOZH-Nli541hM=);
+      }
+      70%{
+            background-image: url(https://cdn.pixabay.com/photo/2019/03/05/05/45/man-4035612__340.jpg);
+      }
+      80%{
+            background-image: url(https://media.istockphoto.com/photos/hot-air-balloons-flying-over-the-botan-canyon-in-turkey-picture-id1297349747?b=1&k=20&m=1297349747&s=170667a&w=0&h=oH31fJty_4xWl_JQ4OIQWZKP8C6ji9Mz7L4XmEnbqRU=);
+      }
+      90%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/03/26/10/45/frankfurt-7092736__340.jpg);
+      }
+      100%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/03/31/11/28/insect-7102809__340.jpg);
+      }
+}
+
+@keyframes box-2 {
+      0%{
+            background-image: url(https://cdn.pixabay.com/photo/2021/12/11/11/48/nature-6862612__340.jpg);
+      }
+      10%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/04/06/20/30/big-ben-7116305__340.jpg);
+      }
+      20%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/02/22/15/15/girl-7029035__340.jpg);
+      }
+      30%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/01/30/15/01/girl-6981336__340.jpg);
+      }
+      40%{
+            background-image: url(https://media.istockphoto.com/photos/tabiat-steel-bridge-tehran-iran-picture-id974833068?b=1&k=20&m=974833068&s=170667a&w=0&h=zVUb52wv9R37AJHV_GkH7MI8xCx76Apon2AGu9gn9Fs=);
+      }
+      50%{
+            background-image: url(https://media.istockphoto.com/photos/bridge-habits-picture-id1093230824?b=1&k=20&m=1093230824&s=170667a&w=0&h=fTzIqK9ptQtyHp0r0dG-BlM50TSEje1wEr2tbO-HSNc=);
+      }
+      60%{
+            background-image: url(https://media.istockphoto.com/photos/bolu-glgk-tabiat-park-orman-evi-picture-id1371967838?b=1&k=20&m=1371967838&s=170667a&w=0&h=EOsliWCqwNqQyk_kMr_-zLu_wB4ohtQOZH-Nli541hM=);
+      }
+      70%{
+            background-image: url(https://cdn.pixabay.com/photo/2019/03/05/05/45/man-4035612__340.jpg);
+      }
+      80%{
+            background-image: url(https://media.istockphoto.com/photos/hot-air-balloons-flying-over-the-botan-canyon-in-turkey-picture-id1297349747?b=1&k=20&m=1297349747&s=170667a&w=0&h=oH31fJty_4xWl_JQ4OIQWZKP8C6ji9Mz7L4XmEnbqRU=);
+      }
+      90%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/03/26/10/45/frankfurt-7092736__340.jpg);
+      }
+      100%{
+            background-image: url(https://cdn.pixabay.com/photo/2022/03/31/11/28/insect-7102809__340.jpg);
+      }
+}
+
+@keyframes body1{
+      0%{
+            background-color: white;
+      }
+      10%{
+            background-color: blue;
+      }
+      20%{
+            background-color: green;
+      }
+      30%{
+            background-color: crimson;
+      }
+      40%{
+            background-color: aqua;
+      }
+      50%{
+            background-color: purple;
+      }
+      60%{
+            background-color: red;
+      }
+      70%{
+            background-color: yellow;
+      }
+      80%{
+            background-color: yellowgreen;
+      }
+      90%{
+            background-color: fuchsia;
+      }
+      100%{
+            background-color: orangered;
+      }
+
+      
+}
